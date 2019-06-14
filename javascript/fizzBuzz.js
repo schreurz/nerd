@@ -13,7 +13,8 @@ function fizzbuzz() {
         if (i % 5 == 0) {
             val += 2;
         }
-        ary.push(val ? (val & 1 ? 'fizz' : '') + (val & 2 ? 'buzz' : '') : i.toString());
+        ary.push(val ? (val & 1 ? 'Fizz' : '') + (val & 2 ? 'Buzz' : '')
+            : i.toString());
     }
 
     return ary;
